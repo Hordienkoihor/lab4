@@ -11,7 +11,7 @@ public class Client: Person
     {
         YearlyIncome = yearlyIncome;
     }
-
+//
     public Client(string firstName, string lastName, long passportNumber, double yearlyIncome) : base(firstName, lastName, passportNumber)
     {
         YearlyIncome = yearlyIncome;
