@@ -17,7 +17,7 @@ public record Contract(Client Client, InsurancyAgent Agent, string InsuredItem, 
     public DateTime NextPaymentDue { get; set; }
     private InsuranceCompany _company { get; set; } = Company;
 
-    internal Timer paymentTimer;
+    internal Timer paymentTimer;//
     
     public event EventHandler<ContractPaymentEventArgs> ContractPaymentDue;
     public void OnPaymentTimerElapsed(object sender, ElapsedEventArgs e)

@@ -13,7 +13,7 @@ public class Program
         Contract testContract = new Contract(client,agent , "korova", 3642838, 1, test);
         if (testContract != null)
         {
-            test.addContract(testContract);
+            test.addContract(testContract);//
         }
         System.Threading.Thread.Sleep(10000);
     }

@@ -40,7 +40,7 @@ public class InsuranceCompany
         {
                 Name = name;
         }
-        
+        //
         public InsuranceCompany(string name, InsurancyAgent agent)
         {
                 Name = name;

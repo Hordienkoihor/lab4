@@ -21,7 +21,7 @@ public abstract class  Person
             }
         }
     }
-
+//
     public DateTime BirthDate
     {
         get => _birthDate;

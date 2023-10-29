@@ -11,7 +11,13 @@ public class InsurancyAgent: Person
     {
         Salery = salery;
     }
-
+/// <summary>
+/// /
+/// </summary>
+/// <param name="firstName"></param>
+/// <param name="lastName"></param>
+/// <param name="passportNumber"></param>
+/// <param name="salery"></param>
     public InsurancyAgent(string firstName, string lastName, long passportNumber, double salery) : base(firstName, lastName, passportNumber)
     {
         Salery = salery;

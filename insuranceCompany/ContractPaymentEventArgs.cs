@@ -3,7 +3,7 @@ using insuranceCompany.Persons;
 namespace insuranceCompany;
 
 public class ContractPaymentEventArgs: EventArgs
-{
+{//
     public Client Client { get; }
     public Contract Contract { get; }
 
