@@ -1,0 +1,15 @@
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/bin/Debug/net7.0/insuranceCompany
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/bin/Debug/net7.0/insuranceCompany.deps.json
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/bin/Debug/net7.0/insuranceCompany.runtimeconfig.json
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/bin/Debug/net7.0/insuranceCompany.dll
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/bin/Debug/net7.0/insuranceCompany.pdb
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.csproj.AssemblyReference.cache
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.GeneratedMSBuildEditorConfig.editorconfig
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.AssemblyInfoInputs.cache
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.AssemblyInfo.cs
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.csproj.CoreCompileInputs.cache
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.dll
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/refint/insuranceCompany.dll
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.pdb
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/insuranceCompany.genruntimeconfig.cache
+/Users/igorgordienko/C# lab/insuranceCompany/insuranceCompany/obj/Debug/net7.0/ref/insuranceCompany.dll
