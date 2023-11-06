@@ -101,7 +101,7 @@ public class InsuranceCompany
         /// <returns>
         /// returns contract or null
         /// </returns>
-        public Contract findByNumber(long number)
+        public Contract findByNumberContract(long number)
         {
                 if (Contracts.Any(x => x.Number == number))
                 {
@@ -112,6 +112,20 @@ public class InsuranceCompany
                         return null; 
                 }
         }
+        
+        public InsurancyAgent findByPassNumAgent(long number)
+        {
+                if (Agents.Any(x => x.PassportNumber == number))
+                {
+                        return Agents.Find(x => x.PassportNumber == number);
+                }
+                else
+                {
+                        return null; 
+                }
+        }
+        
+        
         
         
         /// <summary>
@@ -130,8 +144,12 @@ public class InsuranceCompany
                 e.Contract.NextPaymentDue = e.Contract.NextPaymentDue.AddMonths(1);        
         }
 
-        
 
+        bool removeContract(long number)
+        {
+                findByNumberContract(number).ContractPaymentDue -= HandleContractPaymentDue;
+                return Contracts.Remove(findByNumberContract(number));
+        }
         
 
         
