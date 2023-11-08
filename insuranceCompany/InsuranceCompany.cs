@@ -62,6 +62,13 @@ public class InsuranceCompany
                         Console.WriteLine("Agent cannot be null.");
                 }
         }
+        
+        bool removeAgent(long number)
+        {
+                
+                return Agents.Remove(findByPassNumAgent(number));
+        }
+        
         /// <summary>
         /// add contract to the Contracts list
         /// </summary>
